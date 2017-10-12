@@ -19,15 +19,15 @@ This repo contains an example of infrastucture-as-code on vSphere. It demonstrat
 
 3. Browse the Swarm cluster with Portainer web interface http://master-ip:8080 
 
-Go to Swarm then click on "Go to cluster visualizer"
+   Go to Swarm then click on "Go to cluster visualizer"
 
-3. Update the desired_state.tf file by increasing or decreasing the number of worker node
+4. Update the desired_state.tf file by increasing or decreasing the number of worker node
 
-4. Run terraform again 
+5. Run terraform again 
 
    `terraform apply`
 
-5. Tear down your cluster
+6. Tear down your cluster
 
    `terraform destroy`
 
