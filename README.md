@@ -19,8 +19,8 @@ This repo contains an example of infrastucture-as-code on vSphere. It demonstrat
 
 3. Browse the Swarm cluster with Portainer web interface
 
-http://master-ip:8080
-Go to Swarm then click on "Go to cluster visualizer"
+  http://master-ip:8080
+  Go to Swarm then click on "Go to cluster visualizer"
 
 3. Update the desired_state.tf file by increasing or decreasing the number of worker node
 
