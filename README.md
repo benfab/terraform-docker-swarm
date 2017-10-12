@@ -13,23 +13,24 @@ This repo contains an example of infrastucture-as-code on vSphere. It demonstrat
 
 2. Run terraform
  
-  `terraform init`
-  `terraform apply`
+   `terraform init` 
+  
+   `terraform apply`
 
 3. Browse the Swarm cluster with Portainer web interface
 
-http://<master-ip>:8080
+http://master-ip:8080
 Go to Swarm then click on "Go to cluster visualizer"
 
 3. Update the desired_state.tf file by increasing or decreasing the number of worker node
 
 4. Run terraform again 
 
-  `terraform apply`
+   `terraform apply`
 
 5. Tear down your cluster
 
-  `terraform destroy`
+   `terraform destroy`
 
 # Steps to install Docker on the CentOS7 template
 
